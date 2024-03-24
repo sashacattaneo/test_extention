@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Troll",
+  "version": "1.0",
+
+  "description": "TEST",
+
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "web_accessible_resources": [
+        "pp.jpg"
+  ]
+}
